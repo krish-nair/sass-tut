@@ -1,0 +1,32 @@
+header {
+  height: 100vh;
+  background: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+header button {
+  background: #2e3b55;
+  color: #fff;
+}
+
+header button:hover {
+  background: yellowgreen;
+  color: black;
+}
+
+header button::before {
+  content: "Hello there";
+}
+
+.contact button {
+  background: #2e3b55;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
