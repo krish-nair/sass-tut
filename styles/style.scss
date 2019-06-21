@@ -1,7 +1,6 @@
 @import "./variables";
 @import "./header";
 
-.contact button {
-  background: $primarButton;
-  color: $textColor;
+.contact {
+  @extend header;
 }
